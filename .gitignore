@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Streamlit
+.streamlit/
+
+# Environment variables / secrets
+.env
+*.env
+secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+logs/
+
+# Data - ignore large binary files
+*.csv
+*.parquet
+*.pkl
+*.h5
+*.db
+*.sqlite
+
+# Coverage
+.coverage
+htmlcov/

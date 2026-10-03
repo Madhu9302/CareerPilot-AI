@@ -1,0 +1,24 @@
+# Normalise line endings to LF in the repository; checkout as-is on all platforms
+* text=auto eol=lf
+
+# Explicitly text files
+*.py    text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+*.toml  text eol=lf
+*.yaml  text eol=lf
+*.yml   text eol=lf
+*.json  text eol=lf
+*.html  text eol=lf
+*.css   text eol=lf
+*.js    text eol=lf
+
+# Binary — never mangle
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.whl   binary
+*.pkl   binary
+*.h5    binary
